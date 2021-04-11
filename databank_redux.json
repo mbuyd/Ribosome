@@ -1,0 +1,23 @@
+{
+    "ala": ["gcg", "gca", "gcc", "gcu"],
+    "arg": ["agg", "aga", "cgg", "cga", "cgc", "cgu"],
+    "asn": ["aac", "aau"],
+    "asp": ["gac", "gau"],
+    "cys": ["ugc", "ugu"],
+    "gln": ["cag", "caa"],
+    "glu": ["gag", "gaa"],
+    "gly": ["ggg", "gga", "ggc", "ggu"],
+    "his": ["cac", "cau"],
+    "ile": ["aua", "auc", "auu"],
+    "leu": ["cug", "cua", "cuc", "cuu", "uug", "uua"],
+    "lys": ["aag", "aaa"],
+    "met": ["aug"],
+    "phe": ["uuc", "uuu"],
+    "pro": ["ccg", "cca", "ccc", "ccu"],
+    "ser": ["ucg", "uca", "ucc", "ucu"],
+    "stop": ["uag", "uaa", "uga"],
+    "thr": ["acg", "aca", "acc", "acu"],
+    "trp": ["ugg"],
+    "tyr": ["uac", "uau"],
+    "val": ["gug", "gua", "guc", "guu"]
+}
