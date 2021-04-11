@@ -31,18 +31,31 @@ gly = data["gly"]
 def translate(aliases=["t"]):
     print("Enter Your RNA Sequence")
     RNA = input()
-    if "T" in RNA:
-        print ("Thymine cannot be present in the RNA sequence, make sure to recheck the sequence provided")
-    elif choice(num) in RNA:
-        print ("Integers should not be in the sequence. \n Make sure to remove the 5' and 3' if they are present")
-    else:
-        print(RNA)
-        if choice(met) in RNA:
-            print("met")
+    i = 0
+    while i <= 1000:
+        if "T" in RNA:
+            print(i)
+            print ("Thymine cannot be present in the RNA sequence, make sure that you are using the RNA sequence.")
+            i = 1001
+        elif choice(num) in RNA:
+            print(i)
+            print ("Integers should not be in the sequence. \n Make sure to remove the 5' and 3' if they are present.")
+            i = 1001
+        elif char != nuc:
+            print(i)
+            print(f"RNA can not have {char} in its sequence.")
+            i = 1001
         else:
-            pass
+            if choice(met) in RNA:
+                print(i)
+                print("met")
+                i = 1002
+            else:
+                i = i + 1
+                print(i)
     return translate()
-
+    if i > 1001:
+        print(RNA)
 translate()
     
 
