@@ -1,0 +1,28 @@
+{
+    "num":["1","2","3","4","5","6","7","8","9","0"],
+    "nuc":["a","c","g","u"],
+    "met":["aug"],
+    "ile":["aua","auc","auu"],
+    "leu":["cug","cua","cuc","cuu","uug","uua"],
+    "phe":["uuc","uuu"],
+    "val":["gug","gua","guc","guu"],
+    "thr":["acg","aca","acc","acu"],
+    "pro":["ccg","cca","ccc","ccu"],
+    "ser":["ucg","uca","ucc","ucu"],
+    "ala":["gcg","gca","gcc","gcu"],
+    "lys":["aag","aaa"],
+    "asn":["aac","aau"],
+    "gln":["cag","caa"],
+    "his":["cac","cau"],
+    "stop":["uag","uaa","uga"],
+    "tyr":["uac","uau"],
+    "glu":["gag","gaa"],
+    "asp":["gac","gau"],
+    "arg":["agg","aga","cgg","cga","cgc","cgu"],
+    "trp":["ugg"],
+    "cys":["ugc","ugu"],
+    "gly":["ggg","gga","ggc","ggu"]
+
+
+
+}
